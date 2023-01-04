@@ -1,0 +1,17 @@
+.wrapper {
+  height: 6rem;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: 1px 1px 1px rgb(0 0 0 / 12%);
+}
+
+.content {
+  width: 100%;
+  max-width: var(--container-width);
+  height: 100%;
+  background: #ccc;
+}

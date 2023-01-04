@@ -1,0 +1,22 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+
+  width: 100%;
+  max-width: var(--container-width);
+  margin-inline: auto;
+}
+
+.container {
+  display: flex;
+
+  width: 100%;
+  max-width: var(--container-width);
+  background-color: #ffcccc;
+}
+
+.content {
+  flex: 1;
+  background-color: #9f9;
+}
